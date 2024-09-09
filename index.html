@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="weather-dashboard">
+        <div class="header">
+            <h1>Philadelphia</h1>
+            <h2 id="temperature">60°</h2>
+            <p id="feels-like">Feels Like 64°</p>
+            <p class="condition" id="condition">Light Rain</p>
+            <div class="rain-info" id="rain-info">Light rain continuing for 14 min</div>
+        </div>
+
+        <div class="hourly-forecast">
+            <b>Hourly Forecast</b>
+            <div class="hours-row">
+                <span class="hour">Now</span>
+                <span class="hour">5PM</span>
+                <span class="hour">6PM</span>
+                <span class="hour">7PM</span>
+                <span class="hour">8PM</span>
+                <span class="hour">9PM</span>
+                <span class="hour">10PM</span>
+                <span class="hour">11PM</span>
+            </div>
+            <div class="temps-row">
+                <span class="temp">60°</span>
+                <span class="temp">60°</span>
+                <span class="temp">62°</span>
+                <span class="temp">61°</span>
+                <span class="temp">59°</span>
+                <span class="temp">59°</span>
+                <span class="temp">58°</span>
+                <span class="temp">57°</span>
+            </div>
+        </div>
+        
+
+        <div class="forecast-and-info-container">
+            <div class="weekly-forecast">
+                <b>Weekly Forecast</b>
+                <div class="day-forecast">
+                    <span class="day">Today</span>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <span class="temp">72°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Mon</span>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <span class="temp">74°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Tue</span>
+                    <img src="cloudy.jpeg" alt="Cloudy" class="weather-icon">
+                    <span class="temp">69°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Wed</span>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <span class="temp">78°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Thu</span>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <span class="temp">82°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Fri</span>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <span class="temp">81°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Sat</span>
+                    <img src="cloudy.jpeg" alt="Cloudy" class="weather-icon">
+                    <span class="temp">81°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Sun</span>
+                    <img src="cloudy.jpeg" alt="Cloudy" class="weather-icon">
+                    <span class="temp">80°</span>
+                </div>
+                <div class="day-forecast">
+                    <span class="day">Mon</span>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <span class="temp">79°</span>
+                </div>
+                
+            </div>
+        
+            <div class="additional-info">
+                <div class="info-box">
+                    <h3>Air Quality</h3>
+                    <img src="air.jpeg" alt="Air" class="weather-icon">
+                    <p>38</p>
+                    <p>Good</p>
+                </div>
+                <div class="info-box">
+                    <h3>UV Index</h3>
+                    <img src="sun.png" alt="Sunny" class="weather-icon">
+                    <p>0</p>
+                    <p>Low</p>
+                </div>
+                <div class="info-box">
+                    <h3>Illumination</h3>
+                    <img src="moon.jpeg" alt="Moon" class="weather-icon">
+                    <p>30%</p>
+                    <p>Waxing Crescent</p>
+                </div>
+                <div class="info-box">
+                    <h3>Wind</h3>
+                    <img src="compass.jpeg" alt="compass" class="weather-icon">
+                    <p>5 MPH W</p>
+                    <p>11 MPH Gusts</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="map-container">
+        <img src="map.jpg" alt="Map" class="map-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
